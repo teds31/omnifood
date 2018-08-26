@@ -57,6 +57,7 @@ word-spacing: 4px;
 
 .main_nav {
   float: right;
+  list-style: none;
 }
 
 /* Buttons */
