@@ -17,9 +17,17 @@ html {
   max-width: 1140px;
   margin: 0 auto;
 }
-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.7));
-  background-image: url('../img/hero.jpg'); background-position: center; background-size: cover; height: 100vh;
+
+/* Heading */
+
+.bg-overlay {
+  background-image: url('../img/omnifood.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  height: 450px;
+  padding-top: 50px;
 }
 
 .hero-text-box {
@@ -41,6 +49,18 @@ letter-spacing: 1px;
 word-spacing: 4px;
 }
 
+.logo {
+  height: 100px;
+  width: auto;
+  float: left;
+}
+
+.main_nav {
+  float: right;
+}
+
+/* Buttons */
+
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -49,6 +69,7 @@ word-spacing: 4px;
   font-weight: 300%;
   text-decoration: none;
   border-radius: 200px;
+transition-property: color 0.2s, border 0.2s;
 }
 
 
